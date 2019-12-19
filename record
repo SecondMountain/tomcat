@@ -1,0 +1,14 @@
+在vm options添加
+-Dcatalina.home=D:\projects\system-structure\tomcat-master\
+-Dcatalina.base=D:\projects\system-structure\tomcat-master\
+-Djava.endorsed.dirs=D:\projects\system-structure\tomcat-master\endorsed
+-Djava.io.tmpdir=D:\projects\system-structure\tomcat-master\temp
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-Djava.util.logging.config.file=D:\projects\system-structure\tomcat-master\conf\logging.properties
+-Duser.language=en
+-Duser.region=US
+-Dfile.encoding=UTF-8
+
+启动类为 bootstrap.class
+
+在项目里面添加pom文件
