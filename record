@@ -12,3 +12,9 @@
 启动类为 bootstrap.class
 
 在项目里面添加pom文件
+
+然后在contextConfig.java里面
+774行添加代码：context.addServletContainerInitializer(new JasperInitializer(), null);
+
+然后启动即可。
+webapps目录下的examples无法正常启动的原因是因为该app不是被编译过的，是源码，所以可以复制tomcat应用里面的examples替换掉源码里面的examples重新启动即可。
